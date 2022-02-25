@@ -34,7 +34,7 @@ class Resume extends Component {
           <div className="left">
             <div className="name">Woolgathering</div>
             <div className="addr">Manila, Philippines</div>
-            <div className="duration">December 2021 - Now</div>
+            <div className="duration">December 2020 - Now</div>
           </div>
           <div className="right">
             <div className="name">Creative Writing</div>
