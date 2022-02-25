@@ -1,0 +1,114 @@
+#resume {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    min-height: 100%;
+    background: black;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: calc(10px + 0.8vw);
+    padding-top: calc(2vh + 75px);
+    line-height: 26px;
+    color: white;
+
+  }
+  .container {
+    max-width: 80vw;
+    background: black;
+    margin: 0px auto 0px;
+    border-radius: 3px;
+    padding: 40px;
+  }
+  
+  .header {
+    margin-bottom: 30px;
+  }
+
+.full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  .first-name {
+    font-weight: 700;
+  }
+  .last-name {
+    font-weight: 300;
+  }
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  .email, .phone {
+    color: #999;
+    font-weight: 300;
+  }
+  .separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+  }
+  .position {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline;
+  }
+  
+  .details {
+    line-height: 20px;
+  }
+  .details .section {
+    margin-bottom: 40px;
+  }
+  .details .section:last-of-type {
+    margin-bottom: 0px;
+  }
+  .details .section__title {
+    letter-spacing: 2px;
+    color: #c22085;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  .details .section__list-item {
+    margin-bottom: 40px;
+  }
+  .details .section__list-item:last-of-type {
+    margin-bottom: 0;
+  }
+  .details .left,
+  .details .right {
+    vertical-align: top;
+    display: inline-block;
+  }
+  .details .left {
+    width: 60%;
+  }
+  .details .right {
+    text-align: right;
+    width: 39%;
+  }
+  .details .name {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .details a {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+  }
+  .details a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+
+  @media screen and (max-width: 900px){
+    .container {
+      max-width: 90vw;
+    }
+  }

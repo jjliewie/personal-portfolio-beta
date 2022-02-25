@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.com-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  animation: fadeIn 2s ease-out;
+}
+
+.hometext {
+  color: white;
+  font-size:calc(1.8vw + 25px);
+  font-weight: bold;
+  padding: calc(5px + 2vw);
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.resume{
+  padding-top: calc(2vh + 75px);
+  background-color: black;
+  color:white;
+}
+
+.projects{
+  padding-top: calc(2vh + 75px);
+  color:white;
+  background-color: black;
+  height: 200px;
+}
+
+.links{
+  padding-top: calc(2vh + 75px);
+  background-color: black;
+  height: 100vh;
+  color:white;
+}
+
+.about{
+  padding-top: calc(2vh + 75px);
+  background-color: black;
+  height: calc(fit-content + 2vh + 75px)
+}
+
+.homepage {
+  height: calc(98vh - 75px);
+}
+
+  @keyframes glowing {
+	0% { background-color: #CFFFFE; box-shadow: 0 0 5px #CFFFFE; }
+	50% { background-color: #CCF2F4; box-shadow: 0 0 15px #CCF2F4; }
+	100% { background-color: #C2F0FC; box-shadow: 0 0 5px #C2F0FC; }
+  }
+
+@keyframes hovering {
+  0% { background-color: #FAFCDB; box-shadow: 0 0 5px #FAFCDB; }
+  50% { background-color: #FAFBD4; box-shadow: 0 0 15px #FAFBD4; }
+  100% { background-color: #FFF9C1; box-shadow: 0 0 5px #FFF9C1; }
+}
+
+@keyframes animate {
+	0% {
+	  background-position: 0%;
+	}
+	100% {
+	  background-position: 400%;
+	}
+}
+
+#links h1{
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+#projects h1{
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
