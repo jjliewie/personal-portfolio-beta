@@ -87,7 +87,7 @@ class Resume extends Component {
          
          <div className="section__list-item">
               <div className="name">Woolgathering</div>
-          <div className="text">Current website developer for Woolgathering Website, created with only HTML, CSS, and Javascript.<a href="/login">link</a>
+          <div className="text">Current website developer for Woolgathering Website, created with only HTML, CSS, and Javascript.
            </div>
          </div>
        </div>
