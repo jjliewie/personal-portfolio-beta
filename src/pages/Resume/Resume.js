@@ -61,8 +61,8 @@ class Resume extends Component {
         <div className="section__list-item">
           <div className="left">
             <div className="name">USACO</div>
-            <div className="addr">Bronze January 2022</div>
-            <div className="duration">Perfect Scorer (1000/1000)</div>
+            <div className="addr">Gold Division</div>
+            <div className="duration">Bronze Perfect Scorer (1000/1000)</div>
           </div>
           {/* <div className="right">
             <div className="name">Fr developer</div>
